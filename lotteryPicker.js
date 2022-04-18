@@ -10,7 +10,13 @@ const lottery = {
 let numberOutput = [];
 
 for (let i = 0; i < 6; i++) {
-    numberOutput.push(' ' + generateNumber(lottery.numbers.length))
+   let number = numberOutput.push(' ' + generateNumber(lottery.numbers.length))
+
+    while (numberOutput.includes(number)) {
+        number = numberOutput.push(' ' + generateNumber(lottery.numbers.length))
+    }
+
+
     // console.log(numberOutput)
 }
 
