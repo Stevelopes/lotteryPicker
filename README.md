@@ -7,6 +7,6 @@ I made a random lottery generator that gave 6 random numbers with advice from th
 
 ## Tech used
 
-+Node.js
-+git
-+Javascript
++ Node.js
++ git
++ Javascript
